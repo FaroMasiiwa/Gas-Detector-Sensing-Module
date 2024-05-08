@@ -96,7 +96,7 @@ void SendAlertMessage() {
   Serial.println("Sending");
   mySerial.println("AT+CMGF=1");
   delay(1000);
-  mySerial.println("AT+CMGS=\"+263785449297\"\r");
+  mySerial.println("AT+CMGS=\"+263xxxxxxxxx\"\r");
   mySerial.println("Faro - Gas Detected. Open Windows");
   delay(100);
   mySerial.println((char)26);
