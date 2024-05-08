@@ -7,6 +7,8 @@ This repository provides the hardware design, software code, and instructions fo
 - SMS Notification: In the event of a gas leak exceeding a pre-defined threshold, the module sends an SMS alert to a designated phone number, notifying you of the potential danger remotely.
 - Audible Alarm Activation: Triggers a loud and clear alarm to raise immediate awareness within the vicinity, prompting occupants to take necessary precautions.
 
+  ![Image](/images/gas_detecor_bb.png)
+
 ### Key Features:
 
 - Gas Detection: Customizable gas detection for a wide range of gases by selecting an appropriate sensor threshold.
