@@ -7,7 +7,8 @@ This repository provides the hardware design, software code, and instructions fo
 - SMS Notification: In the event of a gas leak exceeding a pre-defined threshold, the module sends an SMS alert to a designated phone number, notifying you of the potential danger remotely.
 - Audible Alarm Activation: Triggers a loud and clear alarm to raise immediate awareness within the vicinity, prompting occupants to take necessary precautions.
 
-  ![Image](/images/Gas Detector_schem.png)
+
+![Gas Detector_bb](https://github.com/FaroMasiiwa/Gas-Detector-Sensing-Module/assets/103371456/155d1de2-eb34-416c-ab4d-ac368e40efac)
 
 ### Key Features:
 
@@ -24,11 +25,18 @@ This repository provides the hardware design, software code, and instructions fo
 ### Getting Started:
 
 #### Hardware Requirements:
-- Arduino Uno
-- Gas detection sensor (compatible with your chosen gas type)
-- GSM module (for SMS functionality)
-- Alarm component (e.g., buzzer, piezo speaker)
-- Resistors
+- 1 x Arduino Uno
+- 1x Gas detection sensor
+- 1 x GSM module (for SMS functionality)
+- 1 x Buzzer
+- 2 x 220 Ohm Resistors
+- 3 x 10,000 Ohm resistors
+- 1 x LCD Screen Display
+- 2 x LED Light Bulb
+- Jumper Cables
+- 1 x 5V DC power source
+- 1 x 12V DC Power Source
+- 1x Lm2596 Dc-DC buck converter
   
 ### Software Installation:
 1. Download the Arduino IDE (https://www.arduino.cc/)
